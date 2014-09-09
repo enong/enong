@@ -1,0 +1,25 @@
+body {
+	font-size: 12px;
+	color: #808080;
+	background-color: #fff;
+}
+
+.top-span {
+	font-size: 14px;
+	font-style: inherit;
+	text-align: center;
+	font-weight: bold;
+	height: 60px;
+}
+
+.input-green {
+	border-color: #4cae4c;
+}
+.div-green {
+	color: #fff;
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size: 14px;
+}
