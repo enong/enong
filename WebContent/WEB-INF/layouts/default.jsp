@@ -23,6 +23,7 @@
 <script src="${ctx}/static/respond.min.js"></script>
 <script src="${ctx}/static/jquery/jquery-1.11.1.js" type="text/javascript"></script>
 <script src="${ctx}/static/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="${ctx}/static/js/bootstrap3-validation.js" type="text/javascript"></script>
 <script src="${ctx}/static/js/enong.js" type="text/javascript"></script>
 <sitemesh:head />
 </head>
