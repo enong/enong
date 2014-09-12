@@ -14,8 +14,8 @@
 	function register() {
 		
 		if ($("form").valid(this,"error!")==false){
-		       return false;
-		     }
+			return false;
+		}
 		
 		var arg1 = $("#email").val();
 		var arg2 = $("#phone").val();
