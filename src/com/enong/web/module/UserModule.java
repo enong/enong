@@ -60,7 +60,7 @@ public class UserModule {
 			Mvcs.getHttpSession().setAttribute(Cons.session.USER, user);
 			return new JsonResult(1, "登录成功");
 		} else {
-			return new JsonResult(0, "用户名或密码错误");
+			return new JsonResult(0, "登录错误");
 		}
 	}
 

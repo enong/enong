@@ -25,4 +25,10 @@ public class MenuModule {
 		
 	}
 	
+	@At("/login")
+	@Ok("jsp:views.login")
+	public void openLogin(){
+		
+	}
+	
 }
