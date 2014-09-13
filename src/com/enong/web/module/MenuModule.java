@@ -25,6 +25,12 @@ public class MenuModule {
 		
 	}
 	
+	@At("/registersuccess")
+	@Ok("jsp:views.registersuccess")
+	public void openregistersuccess(){
+		
+	}
+	
 	@At("/login")
 	@Ok("jsp:views.login")
 	public void openLogin(){
