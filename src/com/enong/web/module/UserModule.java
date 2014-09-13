@@ -97,4 +97,10 @@ public class UserModule {
 			}
 		}
 	}
+	
+	@At("/sendverifymail")
+	@Ok("jsp:views.mailverify")
+	public void sendRegisterMail(){
+		
+	}
 }
