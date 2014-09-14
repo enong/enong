@@ -12,7 +12,7 @@
 	padding-bottom: 30px;
 }
 
-.mail-div {
+.color-div {
 	background-color: #FFECEC;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -31,7 +31,7 @@
 			</div>
 			<br/>
 			<br/>
-			<div class="mail-div">
+			<div class="color-div">
 				<span><a href="#">进入我的邮箱，进行邮件认证！</a></span><br/>
 				<span>没收到邮件：请检查您的垃圾箱，邮件有可能被误认为垃圾或广告邮件。</span>															
 			</div>

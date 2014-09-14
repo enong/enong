@@ -12,7 +12,7 @@
 	padding-bottom: 30px;
 }
 
-.mail-div {
+.color-div {
 	background-color: #FFECEC;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -32,7 +32,7 @@
 			</div>
 			<br/>
 			<br/>
-			<div class="mail-div">
+			<div class="color-div">
 				<span class="glyphicon glyphicon-envelope"><a href="${ctx}/user/sendverifymail">立即验证邮箱>></a>进行邮箱验证，可获赠100元伊侬消费券！</span><br/>
 				<span>进行邮箱验证，帮助您快速找回密码，并及时了解订单处理/账户等信息！</span>															
 			</div>
