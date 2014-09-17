@@ -1,12 +1,22 @@
 <%@ page language="java" pageEncoding="UTF-8"%>
 <div>
-	<ul class="nav nav-pills nav-stacked" id="menu">
-		<li id="menu_category"><a href="${ctx}/admin/category">商品目录管理</a></li>
-		<li id="menu_goods"><a href="${ctx}/admin/goods">商品管理</a></li>
-		<li id="menu_order"><a href="${ctx}/admin/order"><i class="icon-user"></i>订单管理</a></li>
-		<li id="menu_article"><a href="${ctx}/admin/article">文章管理</a></li>
-		<li id="menu_return"><a href="${ctx}/admin/return">退款管理</a></li>
-		<li id="menu_static"><a href="${ctx}/admin/static">数据管理</a></li>
-	</ul>
+	<dl class="text-right" id="menu">
+		<li><a href="#">我的易侬</a></li>
+		<dt>订单管理</dt>
+		<li><a href="#">我的订单</a></li>
+		<li><a href="#">我的退货</a></li>
+		<li><a href="#">我的评价</a></li>
+		<li><a href="#">我的收藏</a></li>
+		<dt>个人设置</dt>
+		<li><a href="#">个人资料</a></li>
+		<li><a href="#">密码修改</a></li>
+		<li><a href="#">配送地址</a></li>
+		<li><a href="#">银行账户</a></li>
+		<dt>账户管理</dt>
+		<li><a href="#">现金账户</a></li>
+		<li><a href="#">积分账户</a></li>
+		<li><a href="#">积分兑换</a></li>
+		<li><a href="#">余额提现</a></li>
+	</dl>
 
 </div>

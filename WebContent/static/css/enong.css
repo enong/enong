@@ -4,6 +4,19 @@ body {
 	background-color: #fff;
 }
 
+dl li {
+	list-style-type: none;
+	padding-bottom: 10px;
+}
+
+a,a:hover {
+	text-decoration: none;
+	color: #808080
+}
+
+dt {
+	font-size: 18px;
+}
 .top-span {
 	font-size: 14px;
 	font-style: inherit;
@@ -24,3 +37,6 @@ body {
 	font-size: 14px;
 }
 
+.line {
+	border-right: 1px solid #c0c0c0;
+}

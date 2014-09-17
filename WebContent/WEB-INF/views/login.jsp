@@ -48,10 +48,6 @@
 	padding-bottom: 30px;
 }
 
-.line {
-	border-right: 1px solid #0080ff;
-}
-
 .side {
 	padding-left: 20px;
 }
