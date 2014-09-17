@@ -8,13 +8,13 @@ public class MailUtils {
 	
 	public static void SendMail(String subject, String sendTo, String msg) throws EmailException {
 		HtmlEmail email = new HtmlEmail();
-		email.setHostName(Configer.getConfigMapValue("SEND_MAIL", "hostName").toString());
-		email.setCharset(Configer.getConfigMapValue("SEND_MAIL", "charset").toString());
+		email.setHostName(Configer.getConfigMapValue("MAIL", "hostName").toString());
+		email.setCharset(Configer.getConfigMapValue("MAIL", "charset").toString());
 		email.addTo(sendTo);
-		email.setFrom(Configer.getConfigMapValue("SEND_MAIL", "from").toString(), Configer.getConfigMapValue("SEND_MAIL", "fromName").toString());
+		email.setFrom(Configer.getConfigMapValue("MAIL", "from").toString(), Configer.getConfigMapValue("MAIL", "fromName").toString());
 		email.setSubject(subject);
-		email.setAuthenticator(new DefaultAuthenticator(Configer.getConfigMapValue("SEND_MAIL", "username").toString(), Configer.getConfigMapValue("SEND_MAIL", "password").toString()));
-		email.setMsg(msg);
+		email.setAuthenticator(new DefaultAuthenticator(Configer.getConfigMapValue("MAIL", "username").toString(), Configer.getConfigMapValue("MAIL", "password").toString()));
+		email.setHtmlMsg(msg);
 		email.send();
 	}
 	

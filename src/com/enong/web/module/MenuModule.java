@@ -37,4 +37,16 @@ public class MenuModule {
 		
 	}
 	
+	@At("/myenong")
+	@Ok("jsp:myenong.myenong")
+	public void openMyIndex(){
+		
+	}
+	
+	@At("/myenong/index")
+	@Ok("jsp:myenong.myenong")
+	public void openMyIndex2(){
+		
+	}
+	
 }
