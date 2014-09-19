@@ -9,10 +9,10 @@
 		<div class="col-md-6">
 			<c:choose>
 				 <c:when test="${ENONG_USER ==null}">
-				 	<span class="pull-right">易侬欢迎您！ <a href="${ctx}/login">登录</a>︱<a href="${ctx}/register">注册</a>︱我的账户</span>
+				 	<div class="pull-right">易侬欢迎您！ <a href="${ctx}/login">登录</a>︱<a href="${ctx}/register">注册</a>︱<a href="${ctx}/myenong">我的账户<span class="caret"></span></a></div>
 				 </c:when>
 				 <c:otherwise>
-				 	<span class="pull-right">易侬欢迎您！ ${ENONG_USER.email}︱<a href="${ctx}/user/logout">退出登录</a>︱我的账户</span>
+				 	<div class="pull-right">易侬欢迎您！ ${ENONG_USER.email}︱<a href="${ctx}/user/logout">退出登录</a>︱<a href="${ctx}/myenong">我的账户<span class="caret"></span></a></div>
 				 </c:otherwise>
 			</c:choose>
 		</div>
