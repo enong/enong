@@ -1,7 +1,7 @@
 <%@ page language="java" pageEncoding="UTF-8"%>
 <div>
 	<dl class="text-right" id="menu">
-		<li><a href="#">我的易侬</a></li>
+		<dt><a href="#">我的易侬</a></dt>
 		<dt>订单管理</dt>
 		<li><a href="#">我的订单</a></li>
 		<li><a href="#">我的退货</a></li>

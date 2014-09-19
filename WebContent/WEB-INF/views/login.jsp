@@ -66,7 +66,7 @@
 
 <body>
 	<div class="container container-padding">
-		<div class="col-md-6 line side">
+		<div class="col-md-6 enong-v-line side">
 			<div class="row span-title">
 				<h1>已是易侬会员</h1>
 			</div>

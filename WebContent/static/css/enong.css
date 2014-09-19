@@ -9,14 +9,45 @@ dl li {
 	padding-bottom: 10px;
 }
 
-a,a:hover {
+a, a:hover {
 	text-decoration: none;
-	color: #808080
+	color: #808080;
 }
 
-dt {
-	font-size: 18px;
+dl dt {
+	font-size: 16px;
+	padding-bottom: 10px;
 }
+
+.enong-left {
+	float: left;
+	width: 10%;
+	padding-right: 10px;
+}
+
+.enong-right {
+	float: left;
+	width: 90%;
+	padding-left: 10px;
+}
+
+/*竖线*/
+.enong-v-line {
+	border-right: 1px solid #c0c0c0;
+}
+
+
+/*横线*/
+.enong-h-line {
+	border-bottom: 1px solid #c0c0c0;
+}
+
+/*面包屑 */
+.enong-crumb {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #c0c0c0;
+}
+
 .top-span {
 	font-size: 14px;
 	font-style: inherit;
@@ -28,15 +59,17 @@ dt {
 .input-green {
 	border-color: #4cae4c;
 }
+
 .div-green {
 	color: #fff;
 	background-color: #5cb85c;
 	border-color: #4cae4c;
-	padding-top:5px;
-	padding-bottom:5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	font-size: 14px;
 }
 
-.line {
-	border-right: 1px solid #c0c0c0;
+.rtitle {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }

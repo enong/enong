@@ -22,8 +22,11 @@
 
 <body>
 	<div class="container">
-		<span>首页﹥注册﹥注册成功﹥邮箱验证</span>
-		<hr />
+		<div class="row enong-crumb">
+			<span>首页﹥注册﹥注册成功﹥邮箱验证</span>
+		</div>
+		<div class="row rtitle">
+		</div>
 		<div class="col-md-10 col-md-offset-1 border-line">
 			<div>
 				<span style="font-weight: bold;">已发送邮件至:邮箱(显示注册时的邮箱)</span><br/>

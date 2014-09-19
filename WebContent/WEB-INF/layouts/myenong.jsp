@@ -32,11 +32,15 @@
 	<div>
 		<%@ include file="/WEB-INF/layouts/header.jsp"%>
 		<div class="container">
+			<div class="row enong-crumb">
+				<span>首页﹥我的易侬</span>
+			</div>
+			<br/>
 			<div class="row">
-				<div class="col-md-2 line">
+				<div class="enong-left enong-v-line">
 					<%@ include file="/WEB-INF/layouts/left.jsp"%>
 				</div>
-				<div id="main" class="col-md-10">
+				<div class="enong-right">
 					<sitemesh:body />
 				</div>
 			</div>
