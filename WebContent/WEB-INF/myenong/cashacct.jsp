@@ -4,11 +4,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>我的易侬</title>
+<title>现金账户</title>
 <script type="text/javascript">
 $(function(){
-	$("#menu_myenong").attr("class","enong-menu-select");
-	var crumb = createCrumb('首页','index')+" ﹥ 我的易侬";
+	$("#menu_cash_account").attr("class","enong-menu-select");
+	var crumb = createCrumb('首页','index')+" ﹥ "+createCrumb('我的易侬','myenong')+" ﹥账户管理 ﹥ 现金账户";
 	$("#crumb").empty();
 	$("#crumb").append(crumb);
 });

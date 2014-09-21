@@ -77,3 +77,7 @@ function createTableBody(data, options) {
 	});
 	return body;
 }
+
+function createCrumb(title,path){
+	return "<a href=\"${ctx}/"+path+"\">"+title+"</a>";
+}

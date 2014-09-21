@@ -48,6 +48,10 @@ dl dt {
 	border-bottom: 1px solid #c0c0c0;
 }
 
+.enong-menu-select {
+	color: #5cb85c;
+}
+
 .top-span {
 	font-size: 14px;
 	font-style: inherit;

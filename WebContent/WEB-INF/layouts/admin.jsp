@@ -33,7 +33,7 @@
 		<%@ include file="/WEB-INF/layouts/header.jsp"%>
 		<div class="container">
 			<div class="row enong-crumb">
-				<span>首页﹥我的易侬</span>
+				<span id="crumb"><a href="${ctx}/index">首页</a> ﹥ 我的易侬</span>
 			</div>
 			<br/>
 			<div class="row">

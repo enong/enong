@@ -4,11 +4,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>我的易侬</title>
+<title>密码修改</title>
 <script type="text/javascript">
 $(function(){
-	$("#menu_myenong").attr("class","enong-menu-select");
-	var crumb = createCrumb('首页','index')+" ﹥ 我的易侬";
+	$("#menu_change_password").attr("class","enong-menu-select");
+	var crumb = createCrumb('首页','index')+" ﹥ "+createCrumb('我的易侬','myenong')+" ﹥个人设置 ﹥ 密码修改";
 	$("#crumb").empty();
 	$("#crumb").append(crumb);
 });

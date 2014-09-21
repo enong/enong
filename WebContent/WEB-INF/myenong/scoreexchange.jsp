@@ -4,11 +4,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>我的易侬</title>
+<title>积分兑换</title>
 <script type="text/javascript">
 $(function(){
-	$("#menu_myenong").attr("class","enong-menu-select");
-	var crumb = createCrumb('首页','index')+" ﹥ 我的易侬";
+	$("#menu_score_exchange").attr("class","enong-menu-select");
+	var crumb = createCrumb('首页','index')+" ﹥ "+createCrumb('我的易侬','myenong')+" ﹥账户管理 ﹥ 积分兑换";
 	$("#crumb").empty();
 	$("#crumb").append(crumb);
 });
