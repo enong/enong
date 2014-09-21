@@ -22,13 +22,17 @@ dl dt {
 .enong-left {
 	float: left;
 	width: 10%;
+	position:relative;
 	padding-right: 10px;
+	margin-right: 0px;
 }
 
 .enong-right {
-	float: left;
+	float: right;
 	width: 90%;
+	position:relative;
 	padding-left: 10px;
+	margin-left: 0px;
 }
 
 /*ÊúÏß*/

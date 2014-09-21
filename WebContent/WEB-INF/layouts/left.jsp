@@ -1,5 +1,5 @@
 <%@ page language="java" pageEncoding="UTF-8"%>
-<div>
+<div class="enong-left enong-v-line">
 	<dl class="text-right" id="menu">
 		<dt><a id="menu_myenong" href="${ctx}/myenong"><span class="glyphicon glyphicon-home"></span>&nbsp;我的易侬</a></dt>
 		<dt><span class="glyphicon glyphicon-file"></span>&nbsp;订单管理</dt>

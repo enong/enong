@@ -16,7 +16,7 @@
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="${ctx}/static/bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+<link href="${ctx}/static/bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet" />
 <link href="${ctx}/static/css/enong.css" type="text/css" rel="stylesheet" />
 
 <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
@@ -35,17 +35,15 @@
 			<div class="row enong-crumb">
 				<span id="crumb"><a href="${ctx}/index">首页</a> ﹥ 我的易侬</span>
 			</div>
-			<br/>
+			<br>
 			<div class="row">
-				<div class="enong-left enong-v-line">
-					<%@ include file="/WEB-INF/layouts/left.jsp"%>
-				</div>
+				<%@ include file="/WEB-INF/layouts/left.jsp"%>
 				<div class="enong-right">
 					<sitemesh:body />
 				</div>
 			</div>
 		</div>
-		<br />
+		<br>
 		<%@ include file="/WEB-INF/layouts/footer.jsp"%>
 	</div>
 </body>
