@@ -10,7 +10,7 @@ public class Cons {
 	public static class userType {
 		public static String NORMAL = "normal";
 		public static String ADMIN = "admin";
-	}
+			public static String ADMIN = "admin";}
 
 	public static class userState {
 		public static String NORMAL = "U";
@@ -26,34 +26,34 @@ public class Cons {
 	}
 
 	public static class balanceSourceType {
-		public static String DGFX = "¶©¹º·µÏÖ";
-		public static String THTK = "ÍË»õÍË¿î";
+		public static String DGFX = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
+		public static String THTK = "ï¿½Ë»ï¿½ï¿½Ë¿ï¿½";
 	}
 
 	public static class balancePaymentType {
-		public static String XJGQ = "ÏÖ½ð¹ýÆÚ";
-		public static String DDDK = "¶©µ¥µÖ¿Û";
-		public static String XJTX = "ÏÖ½ðÌáÏÖ";
+		public static String XJGQ = "ï¿½Ö½ï¿½ï¿½ï¿½ï¿½";
+		public static String DDDK = "ï¿½ï¿½ï¿½ï¿½ï¿½Ö¿ï¿½";
+		public static String XJTX = "ï¿½Ö½ï¿½ï¿½ï¿½ï¿½ï¿½";
 	}
 
 	public static class couponsSourceType {
-		public static String ZCZS = "×¢²áÔùËÍ";
-		public static String XXFK = "ÐÅÏ¢·´À¡";
-		public static String GMDZQ = "¹ºÂòµç×ÓÈ¯";
+		public static String ZCZS = "×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
+		public static String XXFK = "ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½";
+		public static String GMDZQ = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¯";
 	}
 
 	public static class couponsPaymentType {
-		public static String DGSY = "¶©¹ºÊ¹ÓÃ";
-		public static String GQZJF = "¹ýÆÚ×ª»ý·Ö";
+		public static String DGSY = "ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½";
+		public static String GQZJF = "ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½";
 	}
 
 	public static class scoreSourceType {
-		public static String DGZS = "¶©¹ºÔùËÍ";
-		public static String YEZH = "Óà¶î×ª»¯";
+		public static String DGZS = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
+		public static String YEZH = "ï¿½ï¿½ï¿½×ªï¿½ï¿½";
 	}
 
 	public static class scorePaymentType {
-		public static String DDDK = "¶©µ¥µÖ¿Û";
+		public static String DDDK = "ï¿½ï¿½ï¿½ï¿½ï¿½Ö¿ï¿½";
 	}
 
 }
